@@ -16,12 +16,14 @@ public class PrimeFactors {
             return factorList.toString();
         }
 
-        while(number % 2 == 0) {
-            number /= 2;
-            factorList.add(2);
-        }
-        if (number > 2){
-            factorList.add(number);
+        int factor = 2;
+        while(factor <= number) {
+            if(number % factor == 0) {
+                factorList.add(factor);
+                number /= factor;
+            } else {
+                factor++;
+            }
         }
 
         Collections.sort(factorList, Collections.reverseOrder());
