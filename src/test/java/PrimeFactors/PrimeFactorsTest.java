@@ -30,4 +30,10 @@ public class PrimeFactorsTest {
         PrimeFactors primeFactors = new PrimeFactors();
         assertEquals("[2, 2]", primeFactors.getFactors(4));
     }
+
+    @Test
+    public void GivenSixFactorsAreThreeTwo() {
+        PrimeFactors primeFactors = new PrimeFactors();
+        assertEquals("[3, 2]", primeFactors.getFactors(6));
+    }
 }

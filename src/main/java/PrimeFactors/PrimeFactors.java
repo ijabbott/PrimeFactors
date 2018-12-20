@@ -18,9 +18,11 @@ public class PrimeFactors {
         if(number % 2 == 0 && number > 2) {
             number /= 2;
             factorList.add(number);
+            factorList.add(2);
+        } else {
+            factorList.add(number);
         }
 
-        factorList.add(number);
         return factorList.toString();
     }
 }
