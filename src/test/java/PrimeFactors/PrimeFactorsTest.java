@@ -10,8 +10,13 @@ public class PrimeFactorsTest {
     @Test
     public void GivenOneFactorsAreOne() {
         PrimeFactors primeFactors = new PrimeFactors();
-        assertEquals("[1]", primeFactors.getFactors());
+        assertEquals("[1]", primeFactors.getFactors(1));
     }
 
+    @Test
+    public void GivenTwoFactorsAreOneTwo() {
+        PrimeFactors primeFactors = new PrimeFactors();
+        assertEquals("[1, 2]", primeFactors.getFactors(2));
+    }
 
 }

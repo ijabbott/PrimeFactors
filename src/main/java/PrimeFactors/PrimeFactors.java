@@ -3,9 +3,17 @@
  */
 package PrimeFactors;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PrimeFactors {
 
-    public String getFactors() {
-        return "[1]";
+    public String getFactors(int number) {
+        List<Integer> factorList = new ArrayList<Integer>();
+        factorList.add(1);
+        if(number % 2 == 0) {
+            factorList.add(2);
+        }
+        return factorList.toString();
     }
 }
