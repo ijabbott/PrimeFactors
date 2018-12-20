@@ -12,17 +12,10 @@ public class PrimeFactors {
     public String getFactors(int number) {
         List<Integer> factorList = new ArrayList<>();
 
-        if(number == 1) {
-            return factorList.toString();
-        }
-
-        int factor = 2;
-        while(factor <= number) {
-            if(number % factor == 0) {
+        for(int factor = 2; number > 1; factor++) {
+            while (number % factor == 0) {
                 factorList.add(factor);
                 number /= factor;
-            } else {
-                factor++;
             }
         }
 
