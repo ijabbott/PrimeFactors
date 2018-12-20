@@ -12,4 +12,10 @@ public class PrimeFactorsTest {
         PrimeFactors primeFactors = new PrimeFactors();
         assertEquals("", primeFactors.getFactors(1));
     }
+
+    @Test
+    public void GivenTwoFactorsAreTwo() {
+        PrimeFactors primeFactors = new PrimeFactors();
+        assertEquals("[2]", primeFactors.getFactors(2));
+    }
 }
