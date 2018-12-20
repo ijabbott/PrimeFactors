@@ -9,9 +9,9 @@ import java.util.List;
 public class PrimeFactors {
 
     public String getFactors(int number) {
-        if(number == 2) {
-            return "[2]";
+        if(number == 1) {
+            return "";
         }
-        return "";
+        return "[" + number + "]";
     }
 }

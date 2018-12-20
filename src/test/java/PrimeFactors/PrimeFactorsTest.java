@@ -18,4 +18,10 @@ public class PrimeFactorsTest {
         PrimeFactors primeFactors = new PrimeFactors();
         assertEquals("[2]", primeFactors.getFactors(2));
     }
+
+    @Test
+    public void GivenThreeFactorsAreThree() {
+        PrimeFactors primeFactors = new PrimeFactors();
+        assertEquals("[3]", primeFactors.getFactors(3));
+    }
 }
