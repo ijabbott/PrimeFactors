@@ -8,15 +8,8 @@ import static org.junit.Assert.*;
 
 public class PrimeFactorsTest {
     @Test
-    public void GivenOneFactorsAreOne() {
+    public void GivenOneFactorsAreIsEmpty() {
         PrimeFactors primeFactors = new PrimeFactors();
-        assertEquals("[1]", primeFactors.getFactors(1));
+        assertEquals("", primeFactors.getFactors(1));
     }
-
-    @Test
-    public void GivenTwoFactorsAreOneTwo() {
-        PrimeFactors primeFactors = new PrimeFactors();
-        assertEquals("[1, 2]", primeFactors.getFactors(2));
-    }
-
 }
