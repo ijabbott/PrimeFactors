@@ -4,6 +4,7 @@
 package PrimeFactors;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class PrimeFactors {
@@ -15,13 +16,15 @@ public class PrimeFactors {
             return factorList.toString();
         }
 
-        if(number % 2 == 0 && number > 2) {
+        while(number % 2 == 0) {
             number /= 2;
-            factorList.add(number);
             factorList.add(2);
-        } else {
+        }
+        if (number > 2){
             factorList.add(number);
         }
+
+        Collections.sort(factorList, Collections.reverseOrder());
 
         return factorList.toString();
     }
