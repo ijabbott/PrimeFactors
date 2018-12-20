@@ -10,7 +10,7 @@ public class PrimeFactorsTest {
     @Test
     public void GivenOneFactorsAreIsEmpty() {
         PrimeFactors primeFactors = new PrimeFactors();
-        assertEquals("", primeFactors.getFactors(1));
+        assertEquals("[]", primeFactors.getFactors(1));
     }
 
     @Test
@@ -23,5 +23,11 @@ public class PrimeFactorsTest {
     public void GivenThreeFactorsAreThree() {
         PrimeFactors primeFactors = new PrimeFactors();
         assertEquals("[3]", primeFactors.getFactors(3));
+    }
+
+    @Test
+    public void GivenFourFactorsAreTwoTwo() {
+        PrimeFactors primeFactors = new PrimeFactors();
+        assertEquals("[2, 2]", primeFactors.getFactors(4));
     }
 }

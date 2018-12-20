@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eea44df-ff65-4130-8d7c-83345700bbe0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/PrimeFactors/PrimeFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PrimeFactors/PrimeFactors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PrimeFactors/PrimeFactorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrimeFactors/PrimeFactorsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -20,24 +21,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PrimeFactors/PrimeFactorsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            <state relative-caret-position="135">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PrimeFactors/PrimeFactors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="255">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,8 +50,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/PrimeFactors/PrimeFactors.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrimeFactors/PrimeFactorsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PrimeFactors/PrimeFactors.java" />
       </list>
     </option>
   </component>
@@ -131,7 +130,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545335437273" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545335793737" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -178,26 +177,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545331769861</updated>
-      <workItem from="1545331771160" duration="2050000" />
+      <workItem from="1545331771160" duration="2541000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeFactorsTest - 2018.12.20 at 12h 55m 34s.xml">
-      <configuration name="PrimeFactorsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeFactorsTest - 2018.12.20 at 12h 55m 50s.xml">
-      <configuration name="PrimeFactorsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeFactorsTest - 2018.12.20 at 12h 55m 59s.xml">
-      <configuration name="PrimeFactorsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeFactorsTest - 2018.12.20 at 12h 57m 36s.xml">
-      <configuration name="PrimeFactorsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeFactorsTest - 2018.12.20 at 13h 05m 01s.xml">
-      <configuration name="PrimeFactorsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrimeFactorsTest - 2018.12.20 at 13h 07m 13s.xml">
       <configuration name="PrimeFactorsTest" configurationId="JUnit" />
     </history-entry>
@@ -207,9 +191,30 @@
     <history-entry file="PrimeFactorsTest - 2018.12.20 at 13h 44m 29s.xml">
       <configuration name="PrimeFactorsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PrimeFactorsTest - 2018.12.20 at 13h 47m 42s.xml">
+      <configuration name="PrimeFactorsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeFactorsTest - 2018.12.20 at 13h 48m 10s.xml">
+      <configuration name="PrimeFactorsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeFactorsTest - 2018.12.20 at 13h 49m 58s.xml">
+      <configuration name="PrimeFactorsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeFactorsTest - 2018.12.20 at 13h 50m 39s.xml">
+      <configuration name="PrimeFactorsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeFactorsTest - 2018.12.20 at 13h 51m 46s.xml">
+      <configuration name="PrimeFactorsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeFactorsTest - 2018.12.20 at 13h 53m 23s.xml">
+      <configuration name="PrimeFactorsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeFactorsTest - 2018.12.20 at 13h 55m 11s.xml">
+      <configuration name="PrimeFactorsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2050000" />
+    <option name="totallyTimeSpent" value="2541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="53" width="1680" height="947" extended-state="0" />
@@ -252,22 +257,20 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/PrimeFactors/PrimeFactors.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PrimeFactors/PrimeFactorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PrimeFactors/PrimeFactorsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PrimeFactors/PrimeFactors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        <state relative-caret-position="255">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

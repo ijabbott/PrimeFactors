@@ -9,9 +9,18 @@ import java.util.List;
 public class PrimeFactors {
 
     public String getFactors(int number) {
+        List<Integer> factorList = new ArrayList<>();
+
         if(number == 1) {
-            return "";
+            return factorList.toString();
         }
-        return "[" + number + "]";
+
+        if(number % 2 == 0 && number > 2) {
+            number /= 2;
+            factorList.add(number);
+        }
+
+        factorList.add(number);
+        return factorList.toString();
     }
 }
